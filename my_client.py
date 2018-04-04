@@ -3,7 +3,7 @@ import struct
 import cv2
 
 client_socket = socket.socket()
-client_socket.connect(('127.0.0.1', 8002))
+client_socket.connect(('10.30.147.160', 8002))
 
 connection = client_socket.makefile('wb')
 try:
